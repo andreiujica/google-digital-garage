@@ -5,11 +5,15 @@
 # O este calculatorul
 
 
-def create_grid():
-    return ["-" for square in range(9)]
+def create_grid() -> list:
+    """
+    Creates game board and fills it with "-"
+    :return: empty game board list
+    """
+    return ["-" for _ in range(9)]
 
 
-def print_grid(grid):
+def print_grid(grid: list) -> None:
     for square in range(9):
         print(grid[square], end=" ")
         if (square + 1) % 3 == 0:
@@ -76,7 +80,7 @@ def main():
     win_state = False
     draw_state = False
 
-    while win_state == False and draw_state == False:
+    while win_state is False and draw_state is False:
         player_choice(grid)
         computer_choice(grid)
 
