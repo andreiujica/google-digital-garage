@@ -8,6 +8,7 @@ Curs introductiv de Python din partea Google Romania
 Curs 1 - Introducere
 Curs 2 - Sintaxa de baza, liste, tupluri, dictionare
 Curs 3 - Conditional programming, loop, functions, namespaces
+Curs 4 - Web Scraping using BeautifulSoup4 and Selenium
 ```
 
 ## Proiecte
