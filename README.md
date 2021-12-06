@@ -16,4 +16,6 @@ Curs 4 - Web Scraping using BeautifulSoup4 and Selenium
 ```bash
 Curs 1 - Introducere
 Curs 2 - Terminal Games: Hangman, Tic Tac Toe
-```
+Curs 3 - Team-Project: Romanian ID Card Validator
+Curs 4 - Covid Cases Web Scraping with Selenium
+
